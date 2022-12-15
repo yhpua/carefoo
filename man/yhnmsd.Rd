@@ -2,24 +2,24 @@
 % Please edit documentation in R/yhnmsd.R
 \name{yhnmsd}
 \alias{yhnmsd}
-\title{yhnmsd()}
+\title{yhnmsd generates desriptive stats}
 \usage{
 yhnmsd(data, mydv, est_d = 2, ci_d = 2, propcut)
 }
 \arguments{
-\item{data}{dataset}
+\item{data}{a dataframe}
 
-\item{mydv}{response variable}
+\item{mydv}{response var}
 
-\item{est_d}{number of digits for estimate}
+\item{est_d}{est}
 
-\item{ci_d}{number of digits for CI}
+\item{ci_d}{ci}
 
-\item{propcut}{cutpoint to create proportion}
+\item{propcut}{cutpoint to generate prop}
 }
 \value{
-data.frame
+a dataframe
 }
 \description{
-yhnmsd()
+yhnmsd generates desriptive stats
 }

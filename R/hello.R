@@ -1,6 +1,6 @@
 #' Hello is default function
 #'
-#' @return
+#' @return a string
 #' @export
 #'
 

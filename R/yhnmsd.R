@@ -1,20 +1,21 @@
-#' yhnmsd()
+#' yhnmsd generates desriptive stats
 #'
-#' @param data  dataset
-#' @param mydv  response variable
-#' @param est_d number of digits for estimate
-#' @param ci_d  number of digits for CI
-#' @param propcut  cutpoint to create proportion
+#' @param data    a dataframe
+#' @param mydv    response var
+#' @param est_d   est
+#' @param ci_d    ci
+#' @param propcut cutpoint to generate prop
 #'
-#' @return data.frame
+#' @return a dataframe
 #' @export
 #'
+
 yhnmsd <- function(data, mydv, est_d = 2, ci_d = 2, propcut){
 
-  #' yhmsd summarizes RCT results using mean-sd or prop
-  #' pivot_wider the results (stratified by timepoints)
-  #' mydv = string character
-  #' TODO: include dtpoint and tgroup args()
+  # yhmsd summarizes RCT results using mean-sd or prop
+  # pivot_wider the results (stratified by timepoints)
+  # mydv = string character
+  # TODO: include dtpoint and tgroup args()
 
   options(dplyr.summarise.inform = FALSE)
 
