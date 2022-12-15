@@ -11,13 +11,11 @@
 #'
 yhnmsd <- function(data, mydv, est_d = 2, ci_d = 2, propcut){
 
-  if (FALSE) {
-  #' summarizes RCT results
+  #' yhmsd summarizes RCT results
   #' estimate subgroup n() and mean-sd
   #' pivot_wider the results (stratified by timepoints)
   #' mydv = string character
   #' TODO: include dtpoint and tgroup args()
-  }
 
   options(dplyr.summarise.inform = FALSE)
 
