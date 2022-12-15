@@ -11,8 +11,7 @@
 #'
 yhnmsd <- function(data, mydv, est_d = 2, ci_d = 2, propcut){
 
-  #' yhmsd summarizes RCT results
-  #' estimate subgroup n() and mean-sd
+  #' yhmsd summarizes RCT results using mean-sd or prop
   #' pivot_wider the results (stratified by timepoints)
   #' mydv = string character
   #' TODO: include dtpoint and tgroup args()
